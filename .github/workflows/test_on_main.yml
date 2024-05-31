@@ -10,7 +10,7 @@ on:
 jobs:
   check-commit-message:
     name: Commit Message
-    runs-on: [code-default]
+    runs-on: ubuntu-latest
     steps:
       - name: Check Commit Jira ID
         uses: gsactions/commit-message-checker@v2
